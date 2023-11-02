@@ -1,0 +1,57 @@
+ Css
+
+
+CSS does not allow us  to access an element using its text content.
+
+Attribute Selector:
+Format:          tagname[attribute='value']
+
+Shortcuts Attribute selector:
+
+iD                tagname#value
+To select elements based on their id attribute
+
+
+
+Class             tagname.value
+If there is a space in the class name, you replace that space with a dot (.)
+
+
+
+ Contains:         tagname[attribute*='value']
+Purpose: Selects elements whose attribute value contains the specified value.
+
+
+Starts-with:        tagname[attribute^='value']
+Purpose: Selects elements whose attribute value starts with the specified value.
+
+ Ends-with:        tagname[attribute$='value']
+Purpose: Selects elements whose attribute value ends with the specified value.
+Usage Tips:
+
+When an attribute has digits or spaces, you can use the advanced attribute selectors to avoid the locator getting redundant.
+
+-----------------------WebElement commands--------------------
+Web Element Commands in Selenium:
+
+Commands:
+
+isSelected():
+Purpose: To determine whether a web element is selected (commonly used for checkboxes, radio buttons, etc.).
+Returns: boolean
+isEnabled():     active
+Purpose: To check if the web element is active (i.e., not disabled).
+Returns: boolean
+isDisplayed():     visible
+Purpose: To verify if the web element is visible on the screen.
+Returns: boolean
+
+
+-----------------------------------radiobuttons and checkboxes----------------
+Procedure to Select a Desired Radio Button:
+a. get all the radio buttons on the web page.
+b. Store these radio buttons in a list.
+c. Loop through each radio button in the list:
+
+If the current radio button matches your desired criteria, click on it.
+If not, continue iterating through the list.

@@ -1,0 +1,3 @@
+Dynamic table = you can add and delete staff. ex: you delete the name from the table , so it is dynamic means it changes.
+Static table- you cant add or delete anything.
+Pagination - Table with multiple page is called pagination.

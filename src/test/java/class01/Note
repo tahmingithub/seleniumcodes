@@ -1,0 +1,123 @@
+*****My Note  *******
+we test software in 2 ways:
+
+1:manual testing -
+ex: facebook; you test , am i able to login when i enter user name and password on facebook. manual testing it create
+ problem because  it takes time to test every single product , it takes time .
+2: automation
+What tools we use to automate a website?
+ selenium.
+ What is selenium:
+ is a tool that help us to automate webApplication
+
+
+ HTML: it is a coding language tool ,
+
+ <button>     button  is a tag it is between <>
+ <image>    image a tag
+  when there is iamge.
+
+ < html>        < open of tag
+ <head>                                         child
+ <body>
+ </html>         </ >close of tag
+
+ 1:    every open htlm should have a closing tag. ex :    <html>    open
+                                                      </html>   close
+
+
+
+  <h2  title ="Im a header">    the tile  /h2>        =>h2 is tag  , title is attribute  , value of attribute is header
+  <image  style = "width 123"
+    - imag is tag, style is attribute , width is value of attribute
+   2:    attribute make changes to the image and information
+
+   3:    text- it is between open and close of a tag . ex:
+    <h2>   image as a link  </h2>         image as a link=> text
+
+
+ ex:    <button  style ="40px"> hello< /button>
+    <button is tag
+    style is attribute that has value 40px
+    hello is text , cuz it is between open tag and close tag
+
+
+   ex:  facebook login user name , pass, login
+   <html>
+   <input>       =>username
+   <input>      => username
+   <button>  login  </button>           => login
+   </html>
+
+
+    anything you see on website is webElement.
+locator are used to located the webElement and interact with them .
+8 locator :
+name,
+id
+class
+linktext
+partialLinktext
+tagname,
+xpath
+css
+
+******************
+Instructor Note
+
+get() vs navigate()
+-- navigate can move back, forward and refresh
+-- get() will wait for the page to fully load whereas navigate() will not
+-- get() will not keep the history of the browser whereas navigate() will
+
+close() vs quit()
+-- close() will close the current tab
+-- quit() will quit the whole browser
+
+fullscreen() vs maximize()
+-- maximize() will maximize the browser and you will still be able to see url, tabs, bookmarks
+    and fullscreen() will maximize the whole web application
+
+
+    What is a WebElement?
+    anything we see on the web page is considered to be a webelement
+    e.g. buttons, textboxes, checkboxes, links
+
+    HTML?
+    HyperText Markup Language
+
+    What is DOM?
+    DOM stands for Document Object Model. It is the browser's
+    internal view of the webpage.
+    Also called as Developer's tools, or Dev tools
+    Document --> can be stored any document as pdf, excel
+    Object --> any line in HTML is considered as Object
+    Model --> it is just a layout of the HTML
+
+    Locator
+    is an address or a position of an webelement on the web page
+    is used to locate or identify webelements on the webpage
+
+    8 Locators:
+    - ID
+    - Name
+    - Tagname
+    - xpath
+    - linktext
+    - partialLinkText
+    - CSS Selector
+    - ClassName
+
+
+    Why do we need many locators?
+    -- some locators might have duplicate values in other nodes
+    -- Developers may not provide all the locators for all the elements
+
+
+
+    <button>click me</button>
+    a text is always located betweeen >< of the tag (i.e opening and closing of the tag
+    the above tag has text
+
+    <a href="g"></a>
+    the above tag has no text
